@@ -52,10 +52,3 @@ class DBConnection:
 
     def get_all_images(self):
         return self.cursore.execute(GET_ALL_IMAGES).fetchall()
-
-
-# con = DBConnection()
-# con.create_all_tables()
-# boolean = con.add_image(7393, 'animes', '2013-02-20T17:55:09.608Z', '2024-05-01T12:00:16.756Z', 'tive story about a murder on a train based on a series of young-adult novels for women by Yamaura Hiroyasu. Seiko, while suspended from school (she has been bullied) goes to Nagasaki, where she finds herself involved in a murder mystery. \n(Source: Shoujo &amp; General Weblog)', '', 'Now Video')
-
-# print(boolean)
