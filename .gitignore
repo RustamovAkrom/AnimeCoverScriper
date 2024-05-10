@@ -3,3 +3,4 @@ __pycache__/
 anime.json
 database.db
 word.py
+data/
