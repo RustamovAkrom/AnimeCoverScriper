@@ -57,7 +57,7 @@ def anime_scriping(search: str, cover_image_name: str = "original") -> dict:
             return context_list
         
         else:
-            return "Now data"
+            return False
         
     else:
         return int(response.status_code)
